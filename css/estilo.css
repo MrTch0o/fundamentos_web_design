@@ -49,6 +49,7 @@ a:hover{
 	width: 460px;
 }
 
+
 .iframe{
 	width: 380px;
 	float: left;
@@ -78,6 +79,10 @@ a:hover{
 	width: 940px;
 }
 /* estilos reutilizáveis */
+.imggrande:hover{
+	opacity: 0.3;
+
+}
 .sem-padding{
 	padding: 0 !important;
 }
@@ -100,6 +105,7 @@ ul.inline li:last-child, ol.inline li:last-child{
 }
 ul.sem-marcador, ol.sem-marcador{
 	list-style: none;
+	box-shadow: 2px 2px 2px black, 2px 2px 2px red;
 }
 a.botao, input.botao{
 	background: #1f3c58;
@@ -309,4 +315,11 @@ button:hover{
 }
 button:hover span{
     animation-play-state: paused;
+}
+.zoom:hover .esconde-lista {
+	display: none;
+}
+
+.zoom:hover .zoomp{
+	transform: scale(1.8);
 }
